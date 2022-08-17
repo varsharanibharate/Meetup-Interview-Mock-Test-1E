@@ -127,3 +127,15 @@ The app must have the following functionalities
 > ### _Things to Keep in Mind_
 >
 > - All components you implement should go in the `src/components` directory.
+
+
+
+following test cases are failed.
+
+1. When a value is provided in the HTML input element and the "Register Now" button in Register Route is clicked, then the value provided in the input element should be displayed in the Home Route as "Hello {Name}" and here the Name is the value of the HTML input element in the Register Route
+
+2. When a non-empty input name is provided and a topic is selected in the HTML select element and the "Register Now" button in Register Route is clicked, then the respective "displayText" for the value provided in the select element should be displayed in the Home Route
+
+3.  When the values are provided for both the input and select elements and the "Register Now" button is clicked, then the history.replace() method should be called with the argument "/" and page should navigate to Home Route
+
+4. When the values are provided for both the input and select elements and the "Register Now" button is clicked, then the page should navigate to Home Route and should consist of an HTML image element with alt attribute value as "meetup" and src attribute value as given meetup image URL
